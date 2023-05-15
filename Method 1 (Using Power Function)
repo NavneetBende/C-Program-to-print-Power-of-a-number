@@ -1,0 +1,20 @@
+
+#include<stdio.h>
+#include<math.h> 
+int main() 
+{
+    double base = 2.3;
+    double exp = 2.1;
+    double result;
+    
+    // calculates the power
+    result = pow(base, exp);
+    
+    // %lf used for double
+    printf("%lf ^ %lf = %lf\n", base, exp, result);
+    
+    // following can be used for precision setting
+    printf("%.1lf ^ %.1lf = %.2lf", base, exp, result);
+
+    return 0;
+}
