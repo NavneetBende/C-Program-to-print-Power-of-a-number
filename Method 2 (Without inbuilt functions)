@@ -1,0 +1,18 @@
+#include<stdio.h>
+
+int main() 
+{
+    double base = 2.32;
+    // exp has to be positive and int value for this method
+    int exp = 2;
+    double result = 1.0;
+    
+    while (exp != 0) {
+        result *= base;
+        --exp;
+    }
+    
+    printf("Answer = %lf", result);
+    
+    return 0;
+}
